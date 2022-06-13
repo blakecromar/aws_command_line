@@ -13,3 +13,10 @@ us-west-2, US West (Oregon)	<br>
 ```
 aws configure | Starts you through configuration
 ```
+
+## aws iam list-policies
+Lists all the IAM policies in JSON format
+
+```
+aws iam list-policies
+```
