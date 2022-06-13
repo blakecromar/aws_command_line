@@ -11,5 +11,5 @@ us-west-1, US West (N. California) <br>
 us-west-2, US West (Oregon)	<br>
 
 ```
-aws configure | Helps 
+aws configure | Starts you through configuration
 ```
