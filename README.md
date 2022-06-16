@@ -30,3 +30,8 @@ Note: If you get a '[.pem file name]: bad permissions' error type `chmod 0400 [.
 ```
 ssh -i [.pem file name] ec2-user@[Public IPv4 address associated with EC2 Instance] | SSHing into EC2 Instance
 ```
+
+## exit or control+d
+```
+exit (or control+d) | Used to exit out of instance.
+```
