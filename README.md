@@ -22,6 +22,8 @@ aws iam list-policies | Lists the policies that exist on computer
 ```
 
 ## ssh ec2-user
+This only works with Mac and Linux operating systems <br>
+Make sure that you are located in the same folder as your `.pem` file
 
 ```
 ssh -i [.pem file name] ec2-user@[Public IPv4 address]
