@@ -24,6 +24,7 @@ aws iam list-policies | Lists the policies that exist on computer
 ## ssh ec2-user
 This only works with Mac and Linux operating systems <br>
 Make sure that you are located in the same folder as your `.pem` file
+If you get a '[.pem file name]: bad permissions' error type `chmod 0400 [.pem file name]` to give it permissions
 
 ```
 ssh -i [.pem file name] ec2-user@[Public IPv4 address associated with EC2 Instance] | SSHing into EC2 Instance
