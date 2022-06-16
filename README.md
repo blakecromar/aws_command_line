@@ -22,7 +22,7 @@ aws iam list-policies | Lists the policies that exist on computer
 ```
 
 ## ssh ec2-user
-Used to connect to an EC2 instance <br>
+Used to connect to an EC2 instance <br><br>
 Note: This only works with Mac and Linux operating systems <br>
 Note: Make sure that you are located in the same folder as your `.pem` file <br>
 Note: If you get a '[.pem file name]: bad permissions' error type `chmod 0400 [.pem file name]` to give it permissions
@@ -32,6 +32,8 @@ ssh -i [.pem file name] ec2-user@[Public IPv4 address associated with EC2 Instan
 ```
 
 ## exit or control+d
+Use this command to exit out of an instance user session.
+
 ```
 exit (or control+d) | Used to exit out of instance.
 ```
