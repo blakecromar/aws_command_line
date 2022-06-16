@@ -24,5 +24,5 @@ aws iam list-policies | Lists the policies that exist on computer
 ## ssh ec2-user
 
 ```
-ssh ec2-user@[Public IPv4 address]
+ssh -i [.pem file name] ec2-user@[Public IPv4 address]
 ```
