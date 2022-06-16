@@ -18,5 +18,11 @@ aws configure | Starts you through configuration
 Lists all the IAM policies in JSON format
 
 ```
-aws iam list-policies
+aws iam list-policies | Lists the policies that exist on computer
+```
+
+## ssh ec2-user
+
+```
+ssh ec2-user@[Public IPv4 address]
 ```
