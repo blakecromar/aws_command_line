@@ -26,5 +26,5 @@ This only works with Mac and Linux operating systems <br>
 Make sure that you are located in the same folder as your `.pem` file
 
 ```
-ssh -i [.pem file name] ec2-user@[Public IPv4 address]
+ssh -i [.pem file name] ec2-user@[Public IPv4 address associated with EC2 Instance] | SSHing into EC2 Instance
 ```
