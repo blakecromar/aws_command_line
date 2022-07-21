@@ -52,5 +52,5 @@ sudo yum install stress -y
 ```
 Run this command
 ```
-stress -c [NUMBER OF CPUS] | This is often 4, but could be more
+stress -c [NUMBER OF CPUS] | 1) This is often 4, but could be more 2) It's hard to exit out of this so exit the terminal and reboot the instance
 ```
