@@ -42,3 +42,15 @@ exit (or control+d) | Used to exit out of instance.
 ```
 aws --version | Finding the aws version number
 ```
+
+## How to stress an AWS EC2 Instance
+
+If you haven't already use these commands if you haven't already
+```
+sudo amazon-linux-extras install epel -y
+sudo yum install stress -y
+```
+Run this command
+```
+stress -c [NUMBER OF CPUS] | This is often 4, but could be more
+```
